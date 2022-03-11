@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="POST"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="post"/>
+			<item value="&lt;script src=&quot;jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;"/>
+			<item value="sticky"/>
+			<item value="port"/>
+		</list>
+		<list key="replacehistory">
+			<item value="&lt;script src=&quot;http://code.jquery.com/jquery-3.5.1.min.js&quot;&gt;&lt;/script&gt;"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="773"/>
+		<item key="DIALOG_Y_ORIGIN" value="252"/>
+		<item key="DIALOG_WIDTH" value="308"/>
+		<item key="DIALOG_HEIGHT" value="412"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|8.830189|0|WINDOWS|1|-13|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

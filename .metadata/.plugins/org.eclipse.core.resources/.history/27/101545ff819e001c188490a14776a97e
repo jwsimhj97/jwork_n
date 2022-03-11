@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	.info>span{background-color:#ff0;}
+	.origin { width: 140px; height: 120px;}
+	.large { width: 190px; height: 170px;}
+	.small { width: 90px; height: 70px;}
+</style>
+<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+	$(function() {
+		$(document).on("mousewheel", function(event) {
+			 var wheel = event.originalEvent.wheelDelta;
+			imgClass = $('#img').attr('class');
+			
+			if(wheel>0){
+				$(img).removeClass(imgClass);
+				$('img').addClass("large");
+			}else{
+				$(img).removeClass(imgClass);
+				$('img').addClass("small");
+			}			
+		});
+		$(document).on("mousedown", function(event) {
+			 // event.which : 마우스 클릭위치의 값을 가져온다.
+			//  1 : 마우스좌클릭, 2: 휠클릭, 3: 마우스 우클릭
+			var mWhich = event.which;
+			if(mWhich<=2){
+				$(img).removeClass(imgClass);
+				$('img').addClass("origin");
+			}
+		});
+	});
+</script>
+</head>
+
+<body>
+	<h1>마우스 휠 조작</h1>
+	<p class="info">휠 위로: <span>확대</span>, 휠 클릭: <span>100%</span>, 휠 아래로: <span>축소</span></p>
+	<img src="img/cellphone.jpg" id="img" class="origin"><br><br>
+</body>
+</html>
