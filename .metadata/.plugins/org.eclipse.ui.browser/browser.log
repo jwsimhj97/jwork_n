@@ -1,7 +1,0 @@
-
-3월 08, 2022 09:33:30.847 NEW SESSION
-3월 08, 2022 09:33:30.848 [1548:5840:0308/093330.845:ERROR:data_pack.cc(126)] Could not open pak file for writing: �ٸ� ���μ����� ������ ��� ���̱� ������ ���μ����� �׼��� �� �� �����ϴ�. (0x20)
-3월 08, 2022 09:33:33.363 [1548:7052:0308/093333.362:ERROR:device_event_log_impl.cc(214)] [09:33:33.362] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
-3월 08, 2022 12:58:40.731 [1548:7052:0308/125840.731:ERROR:interface_endpoint_client.cc(659)] Message 0 rejected by interface blink.mojom.WidgetHost
-3월 08, 2022 14:39:19.731 [1548:7052:0308/143919.730:ERROR:device_event_log_impl.cc(214)] [14:39:19.730] USB: usb_service_win.cc:260 Failed to get device driver name: ��Ұ� �����ϴ�. (0x490)
-3월 08, 2022 14:39:19.738 [1548:7052:0308/143919.737:ERROR:device_event_log_impl.cc(214)] [14:39:19.737] USB: usb_service_win.cc:283 SetupDiEnumDeviceInterfaces: ��� ������ �����Ͱ� �����ϴ�. (0x103)
