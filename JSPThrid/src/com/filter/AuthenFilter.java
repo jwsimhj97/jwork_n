@@ -9,6 +9,7 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
+//@WebFilter("/18_01_filter01_process.jsp")ss
 public class AuthenFilter implements Filter {
 	/* protected FilterConfig filterConfig; */
 	
